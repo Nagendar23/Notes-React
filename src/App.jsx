@@ -36,7 +36,11 @@ const App = () => {
     <div className="app">
       <h1>Notes App</h1>
       <ToggleTheme darkMode={darkMode} setDarkMode={setDarkMode} />
+      <br />
+      <label >Search🔍 </label>
+      
       <Search setSearchText={setSearchText} />
+      <label>Notes📝</label>
       <NotesList notes={notes} setNotes={setNotes} searchText={searchText} />
     </div>
   );
