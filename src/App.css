@@ -46,6 +46,8 @@ input{
 }
 .note{
     background: yellow;
+    color:black;
+    font-weight:700;
     padding: 10px;
     border-radius: 5px;
     width: 100%;
